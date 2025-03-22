@@ -18,3 +18,4 @@
 | git blame <file>                       | Visar vem som ändrat varje rad i en fil             | –                                      |
 | git shortlog                           | Visar summering av commits per användare            | –                                      |
 | git archive -o latest.zip HEAD         | Skapar en zip-fil av senaste versionen av projektet | –                                      |
+| echo "filename.txt" >> .gitignore      | Lägger till en fil i .gitignore                     | –                                      |
