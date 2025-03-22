@@ -21,3 +21,4 @@
 | echo "filename.txt" >> .gitignore      | Lägger till en fil i .gitignore                     | –                                                                                                  |
 | git rm --cached filename.txt           | Tar bort en fil från Git men inte från datorn       | Filen hittades inte – lösning: kontrollerade stavning, använde git status för att hitta rätt namn. |
 | git log --graph --oneline --all        | Visar grafiskt commit-historik i en rad per commit  | –                                                                                                  |
+| git show                               | Visar detaljer om senaste commit                    | –                                                                                                  |
