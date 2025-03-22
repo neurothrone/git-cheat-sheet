@@ -25,3 +25,4 @@
 | git reflog                             | Visar historik över branch-rörelser och commits               | –                                                                                                  |
 | git diff HEAD~1 HEAD                   | Visar skillnad mellan senaste commit och den innan            | –                                                                                                  |
 | git commit --amend                     | Ändrar senaste commit-meddelandet eller lägger till ändringar | Fick fel "nothing to amend" – lösning: använde git add först, sedan git commit --amend.            |
+| git checkout main                      | Byter till main-branchen                                      | –                                                                                                  |
