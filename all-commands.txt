@@ -1,0 +1,60 @@
+1. git init
+2. git clone <repository-url>
+3. git status
+4. git help
+5. git help <command>
+6. git config --list
+7. git config user.name "Your Name"
+8. git config user.email "your.email@example.com"
+9. git add <file>
+10. git add .
+11. git add -A
+12. git commit -m "Commit message"
+13. git commit -am "Add and commit tracked files"
+14. git diff
+15. git diff --staged
+16. git log
+17. git log --oneline
+18. git show <commit-hash>
+19. git branch
+20. git branch <branch-name>
+21. git checkout <branch-name>
+22. git checkout -b <branch-name>
+23. git switch <branch-name>
+24. git switch -c <branch-name>
+25. git merge <branch-name>
+26. git remote -v
+27. git remote add origin <url>
+28. git fetch
+29. git pull
+30. git push
+31. git push -u origin <branch-name>
+32. git pull origin <branch-name>
+33. git stash
+34. git stash list
+35. git stash apply
+36. git stash pop
+37. git rm <file>
+38. git rm --cached <file>
+39. git clean -n
+40. git clean -f
+41. git reset
+42. git reset --soft <commit-hash>
+43. git reset --hard <commit-hash>
+44. git add .gitignore
+45. git tag
+46. git tag <tag-name>
+47. git tag -a <tag-name> -m "Tag message"
+48. git push origin <tag-name>
+49. git mv <old> <new>
+50. git blame <file>
+51. git shortlog
+52. git archive -o latest.zip HEAD
+53. echo "filename.txt" >> .gitignore
+54. git rm --cached filename.txt
+55. git log --graph --oneline --all
+56. git show
+57. git reflog
+58. git diff HEAD~1 HEAD
+59. git commit --amend
+60. git checkout main
