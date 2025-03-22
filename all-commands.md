@@ -23,3 +23,4 @@
 | git log --graph --oneline --all        | Visar grafiskt commit-historik i en rad per commit  | –                                                                                                  |
 | git show                               | Visar detaljer om senaste commit                    | –                                                                                                  |
 | git reflog                             | Visar historik över branch-rörelser och commits     | –                                                                                                  |
+| git diff HEAD~1 HEAD                   | Visar skillnad mellan senaste commit och den innan  | –                                                                                                  |
