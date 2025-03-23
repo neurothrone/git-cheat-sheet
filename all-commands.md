@@ -5,6 +5,7 @@
 | git reset                              | Återställer staging-området till senaste commit               | –                                                                                                  |
 | git reset --soft <commit-hash>         | Återställer till commit, behåller ändringar i staging         | –                                                                                                  |
 | git reset --hard <commit-hash>         | Återställer allt till commit, tar bort alla lokala ändringar  | –                                                                                                  |
+| git add .gitignore                     | Lägger till .gitignore-filen till staging för commit          | –                                                                                                  |
 | git tag                                | Visar alla taggar i repositoriet                              | –                                                                                                  |
 | git tag <tag-name>                     | Skapar en enkel tagg med valt namn                            | –                                                                                                  |
 | git tag -a <tag-name> -m "Tag message" | Skapar en annoterad tagg med meddelande                       | –                                                                                                  |
