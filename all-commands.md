@@ -16,12 +16,12 @@
 | git diff                                       | Visar skillnader mella arbkatalog & staging.    |                                        |
 | git diff --staged                              |Visar skillnader mellan staging och senaste commit. |                                     |
 | git log                                        | Visar commit-historiken.                        |                                        |
-| git show <commit-hash>                          |Visar detaljerad info om en commit.              |                                        |
-| git branch                                      |Visar alla grenar och markeraraktuell.           |                                        |
-| git branch <branch-name>                        |Skapar en ny gren med angivet namn.              |                                        |
-| git commit -am "Add and commit tracked files"  | Lägger till OCH committar ändrade, redan spårade filer. |                                 |
-| git help                                      | Visar hjälpsystemet för Git. Används för att få översikt av tillgängliga kommandon.       |
-| git log --oneline                             | Visar commit-historik i kortform, en commit per rad. Bra för snabb överblick.             |
+| git show <commit-hash>                         |Visar detaljerad info om en commit.              |                                       |
+| git branch                                     |Visar alla grenar och markeraraktuell.           |                                       |
+| git branch <branch-name>                       |Skapar en ny gren med angivet namn.              |                                       |
+| git commit -am "Add and commit tracked files"  | Lägger till OCH committar ändrade, redan spårade filer. |                                |
+| git help                                       | Visar hjälpsystemet för Git. Används för att få översikt av tillgängliga kommandon.       |
+| git log --oneline                              | Visar commit-historik i kortform, en commit per rad. Bra för snabb överblick.             |
 | git checkout <branch-name>       | Byter branch                             |                                        |
 | git checkout -b <branch-name>    | Skapa en ny branch och växlar till den   |                                        |
 | git switch <branch-name>         | Växla till en befintlig branch           |                                        |
@@ -42,3 +42,23 @@
 | git rm --cached <file>           | Ta bort fil endast från repo.            |                                        |
 | git clean -n                     | Visa vilka filer som skulle rensas.      |                                        |
 | git clean -f                     | Rensa oversionerade filer.               |                                        |
+| git reset                              | Återställer staging-området till senaste commit               | –                                                                                                  |
+| git reset --soft <commit-hash>         | Återställer till commit, behåller ändringar i staging         | –                                                                                                  |
+| git reset --hard <commit-hash>         | Återställer allt till commit, tar bort alla lokala ändringar  | –                                                                                                  |
+| git add .gitignore                     | Lägger till .gitignore-filen till staging för commit          | –                                                                                                  |
+| git tag                                | Visar alla taggar i repositoriet                              | –                                                                                                  |
+| git tag <tag-name>                     | Skapar en enkel tagg med valt namn                            | –                                                                                                  |
+| git tag -a <tag-name> -m "Tag message" | Skapar en annoterad tagg med meddelande                       | –                                                                                                  |
+| git push origin <tag-name>             | Skickar en tagg till fjärr-repositoriet                       | –                                                                                                  |
+| git mv <old> <new>                     | Byter namn på eller flyttar en fil                            | –                                                                                                  |
+| git blame <file>                       | Visar vem som ändrat varje rad i en fil                       | –                                                                                                  |
+| git shortlog                           | Visar summering av commits per användare                      | –                                                                                                  |
+| git archive -o latest.zip HEAD         | Skapar en zip-fil av senaste versionen av projektet           | –                                                                                                  |
+| echo "filename.txt" >> .gitignore      | Lägger till en fil i .gitignore                               | –                                                                                                  |
+| git rm --cached filename.txt           | Tar bort en fil från Git men inte från datorn                 | Filen hittades inte – lösning: kontrollerade stavning, använde git status för att hitta rätt namn. |
+| git log --graph --oneline --all        | Visar grafiskt commit-historik i en rad per commit            | –                                                                                                  |
+| git show                               | Visar detaljer om senaste commit                              | –                                                                                                  |
+| git reflog                             | Visar historik över branch-rörelser och commits               | –                                                                                                  |
+| git diff HEAD~1 HEAD                   | Visar skillnad mellan senaste commit och den innan            | –                                                                                                  |
+| git commit --amend                     | Ändrar senaste commit-meddelandet eller lägger till ändringar | Fick fel "nothing to amend" – lösning: använde git add först, sedan git commit --amend.            |
+| git checkout main                      | Byter till main-branchen                                      | –                                                                                                  |
