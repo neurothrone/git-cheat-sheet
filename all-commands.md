@@ -11,3 +11,4 @@
 | git remote add origin <url>   | Lägg till ett fjärr-repo.              |                                        |
 | git fetch                     | Hämta ändringar utan att slå ihop.     |                                        |
 | git pull                      | Hämta och slå ihop ändringar.          |                                        |
+| git push                      | Skicka commits till fjärr-repo.         |                                        |
