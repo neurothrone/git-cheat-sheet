@@ -19,3 +19,4 @@
 |git show <commit-hash>                          |Visar detaljerad info om en commit.              |                                        |
 |git branch                                      |Visar alla grenar och markeraraktuell.           |                                        |
 |git branch <branch-name>                        |Skapar en ny gren med angivet namn.              |                                        |
+|git commit -am "Add and commit tracked files"  | Lägger till OCH committar ändrade, redan spårade filer. |                                 |
