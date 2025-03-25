@@ -18,4 +18,4 @@
 | git stash list                | Visa alla stashar.        |                                        |
 | git stash apply                | Applicera en stash men behåll den. 
 | git stash pop                     | Applicera en stash och ta bort den.ihop.     |                                        |
-
+| git rm <file>                 | Ta bort fil från repo och lokalt.        |                                        |
