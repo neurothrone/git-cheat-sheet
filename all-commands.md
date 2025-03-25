@@ -6,7 +6,7 @@
 | git clone <repository-url> | Klonar ett repo från en URL till din dator. |                                        |
 | git status                 | Visar ändringar, staged och unstaged filer. |                                        |
 | git help <command>         | Visar hjälp för ett specifikt kommando.     |                                        |
-|                            |                                             |                                        |
+| git config --list          | Visar alla aktuella Git-inställningar.      |                                        |
 |                            |                                             |                                        |
 |                            |                                             |                                        |
 |                            |                                             |                                        |
