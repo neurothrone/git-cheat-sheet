@@ -12,3 +12,4 @@
 | git add <file>                                 | Lägger till en fil till staging (Commit).       |                                        |
 | git add .                                      | Lägger till alla ändrade filer i aktuell mapp.  |                                        |
 | git add -A                                     | Lägger till alla ändringar (ändrade, borttagna) |                                        |
+| git commit -m "Commit message"                 | Sparar ändringar med ett meddelande.            |                                        |
