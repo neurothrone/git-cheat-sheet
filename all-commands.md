@@ -16,4 +16,6 @@
 | git pull origin <branch-name>   | Hämta och slå ihop vald branch.             |                                        |
 | git stash                 | Spara lokala ändringar tillfälligt.        |                                        |
 | git stash list                | Visa alla stashar.        |                                        |
-| git stash apply                | Applicera en stash men behåll den.        |                                        |
+| git stash apply                | Applicera en stash men behåll den. 
+| git stash pop                     | Applicera en stash och ta bort den.ihop.     |                                        |
+
