@@ -15,3 +15,4 @@
 | git push -u origin <branch-name> | Skicka branch och sätt upp spårning.        |                                        |
 | git pull origin <branch-name>   | Hämta och slå ihop vald branch.             |                                        |
 | git stash                 | Spara lokala ändringar tillfälligt.        |                                        |
+| git stash list                | Visa alla stashar.        |                                        |
