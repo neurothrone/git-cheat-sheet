@@ -20,4 +20,4 @@
 | git stash pop                     | Applicera en stash och ta bort den.ihop.     |                                        |
 | git rm <file>                 | Ta bort fil från repo och lokalt.        |                                        |
 | git rm --cached <file>   | Ta bort fil endast från repo.  |                                        |
-
+| git clean -n   | Visa vilka filer som skulle rensas.  |                                        |
