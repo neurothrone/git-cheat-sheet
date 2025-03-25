@@ -20,4 +20,5 @@
 |git branch                                      |Visar alla grenar och markeraraktuell.           |                                        |
 |git branch <branch-name>                        |Skapar en ny gren med angivet namn.              |                                        |
 |git commit -am "Add and commit tracked files"  | Lägger till OCH committar ändrade, redan spårade filer. |                                 |
-| git help                                      | Visar hjälpsystemet för Git. Används för att få översikt av tillgängliga kommandon. |
+| git help                                      | Visar hjälpsystemet för Git. Används för att få översikt av tillgängliga kommandon.       |
+| git log --oneline                             | Visar commit-historik i kortform, en commit per rad. Bra för snabb överblick.             |
