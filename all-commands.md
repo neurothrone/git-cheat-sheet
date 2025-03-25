@@ -9,4 +9,4 @@
 | git merge <branch-name>       | Slå ihop branch med din nuvarande.     |                                        |
 | git remote -v                 | Visa konfigurerade fjärr-repos.        |                                        |
 | git remote add origin <url>   | Lägg till ett fjärr-repo.              |                                        |
-|                               |                                        |                                        |
+| git fetch                     | Hämta ändringar utan att slå ihop.     |                                        |
