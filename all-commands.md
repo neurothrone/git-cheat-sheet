@@ -16,3 +16,4 @@
 | git diff                                       | Visar skillnader mella arbkatalog & staging.    |                                        |
 | git diff --staged                              |Visar skillnader mellan staging och senaste commit. |                                     |
 | git log                                        | Visar commit-historiken.                        |                                        |
+|git show <commit-hash> |Visar detaljerad info om en commit.                                       |                                        |
