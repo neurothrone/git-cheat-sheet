@@ -13,15 +13,6 @@
 | git add .                                      | Lägger till alla ändrade filer i aktuell mapp.  |                                        |
 | git add -A                                     | Lägger till alla ändringar (ändrade, borttagna) |                                        |
 | git commit -m "Commit message"                 | Sparar ändringar med ett meddelande.            |                                        |
-| git diff                                       |  Visar skillnader mella arbkatalog & staging.   |                                        |
-
-
-
-
-
-
-
-
-
-
-
+| git diff                                       | Visar skillnader mella arbkatalog & staging.    |                                        |
+| git diff --staged                              |Visar skillnader mellan staging och senaste commit. |                                     |
+| git log                                        | Visar commit-historiken.                        |                                        |
