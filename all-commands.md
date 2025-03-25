@@ -21,3 +21,5 @@
 | git rm <file>                 | Ta bort fil från repo och lokalt.        |                                        |
 | git rm --cached <file>   | Ta bort fil endast från repo.  |                                        |
 | git clean -n   | Visa vilka filer som skulle rensas.  |                                        |
+| git clean -f   | Rensa oversionerade filer.             |                                        |
+
