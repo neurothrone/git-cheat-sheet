@@ -13,4 +13,4 @@
 | git pull                      | Hämta och slå ihop ändringar.          |                                        |
 | git push                      | Skicka commits till fjärr-repo.         |                                        |
 | git push -u origin <branch-name> | Skicka branch och sätt upp spårning.        |                                        |
-
+| git pull origin <branch-name>   | Hämta och slå ihop vald branch.             |                                        |
